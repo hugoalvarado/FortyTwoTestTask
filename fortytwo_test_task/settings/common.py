@@ -42,7 +42,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'apps.hello',
+    #'apps.hello',
+    'apps.contact',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -65,7 +66,7 @@ WSGI_APPLICATION = 'fortytwo_test_task.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db_test.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
